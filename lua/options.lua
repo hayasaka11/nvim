@@ -1,15 +1,14 @@
 local opt = vim.opt
 
 opt.tabstop = 4
-opt.shiftwidth = 4
-opt.softtabstop = 4
+opt.shiftwidth = 0
+opt.softtabstop = -1
 opt.expandtab = true
 opt.smartindent = true
 
 opt.number = true
 opt.signcolumn = 'yes'
 opt.cursorline = true
-opt.termguicolors = true
 opt.scrolloff = 5
 opt.sidescrolloff = 5
 opt.wrap = false
@@ -17,9 +16,6 @@ opt.splitbelow = true
 opt.splitright = true
 opt.ignorecase = true
 opt.smartcase = true
-opt.incsearch = true
-opt.updatetime = 250
-opt.timeoutlen = 500
 opt.completeopt = { 'menu', 'menuone', 'noselect', 'popup' }
 opt.clipboard = 'unnamedplus'
 opt.undofile = true
